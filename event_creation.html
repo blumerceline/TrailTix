@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Post Event</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css"/>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #efefef;">
+        <img class="logo" src="logo.jpg"></img>
+        <a class="navbar-brand" href="index.html">Trail Tix</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+         <a class="nav-item nav-link" href="event_details.html">Search Events <span class="sr-only">(current)</span></a>
+         <a class="nav-item nav-link" href="event_creation.html">Post Events</a>
+         <a class="nav-item nav-link" href="booking_history.html">My Bookings</a>
+        </div>
+        </div>
+    </nav>
+
+    <div class="booking_container_whole container">
+    <!--Visible Content on Medium to Large Screens--->
+    <div class="row booking_container_big container">
+
+      <div class="post_event_text col-xs-4">
+      <h2>Post an Event</h2>
+       <label for="date">Date:</label>
+       <input type="text" id="date" name="date"><br><br>
+       <label for="time">Time:</label>
+       <input type="text" id="time" name="time"><br><br>
+       <label for="distance">Distance:</label>
+       <input type="text" id="distance" name="distance"><br><br>
+       <label for="location">Location:</label>
+       <input type="text" id="location" name="location"><br><br>
+       <label for="price">Price:</label>
+       <input type="text" id="price" name="price"><br><br>
+       <label for="title">Title:</label>
+       <input type="text" id="title" name="title"><br><br>
+       <label for="title">Description:</label>
+       <input type="text" id="description" name="description"><br><br>
+
+     </div>
+
+     <div class="post_event_pic col-xs-8  d-none d-md-block">
+       <img src="upload_pic.JPG"></img>
+       <button type="button" style="display:block; text-align:center;" class="btn btn-danger">Post Event</button>
+    </div>
+    </div>
+
+    <div class="small_post_event_screen d-md-none">
+      <img src="upload_pic.JPG"></img>
+      <button type="button" style="display:block; text-align:center;" class="btn btn-danger">Post Event</button>
+
+    </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>

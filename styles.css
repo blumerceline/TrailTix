@@ -1,0 +1,214 @@
+body{
+  background-color: #efefef
+}
+
+.row{
+  margin:0;
+}
+
+.top_section{
+  background-image: url("background_home.jpg");
+  height: 580px;
+}
+
+.top_container_home{
+  margin:0;
+}
+
+.navbar {
+  height: 50px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.navbar-brand{
+  font-size: 25px;
+}
+
+.navbar-nav a{
+  float: none !important;
+  display: inline-block;
+
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.nav-item{
+  z-index: 1;
+}
+
+.dropdown{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo{
+  height: 50px;
+}
+
+.btn{
+  background-color: #bc1823;
+  margin-top: 20px;
+}
+
+.home_container_image img{
+  margin-left:120px;
+  width: 500px;
+  height:auto;
+  position: inline;
+
+}
+
+.top_container_home{
+  background-image: url("background_home.JPG");
+  width: 100%;
+  height: auto;
+}
+
+.home_container_text{
+  margin-left: 10%;
+  margin-top: 10%;
+  position: inline;
+}
+
+.small_screen_text{
+  text-align: center;
+  width:auto;
+}
+
+.little_screen{
+  background-image: url("small_bg_home.JPG");
+  width: 100%;
+  height: 100px;
+
+}
+
+.small_running_image{
+  margin-top: 50px;
+  height: 200px;
+  width:auto;
+
+  text-align: center;
+  position: relative;
+
+}
+
+.little_screen h4{
+  margin-top: 25px;
+}
+
+.post_event_text h2{
+  margin-bottom: 30px;
+}
+
+.post_event_text{
+   float:left;
+   margin-left: 100px;
+}
+
+.post_event_pic{
+  width:200px;
+  height: auto;
+  display:block;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.post_event_pic img{
+  text-align: center;
+  width:500px;
+}
+
+.booking_container_whole {
+    background-image: url("post_event_bg.JPG");
+    margin:0;
+    background-size:cover;
+    text-align: center;
+}
+
+.small_post_event_screen img{
+    width: 300px;
+}
+
+.booking_container_whole button{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.post_event_pic button{
+  margin-left: 225px;
+}
+
+.forestpic{
+  height:400px;
+  width:auto;
+  margin:0;
+  padding:0;
+}
+
+.event_detail_set{
+  background-color: white;
+  padding:0;
+  text-align: center;
+}
+
+.event_detail_set h3, h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.event_details_text{
+  text-align: left;
+  margin-left: 30px;
+}
+
+.forest_col{
+  padding: 0;
+}
+
+.tickets_remain_details{
+  text-align: center;
+}
+
+.tickets_remain_details img{
+  height:200px;
+}
+
+.choose_ticket{
+  margin-left: 39%;
+}
+
+.bookings_text h2{
+  margin-left: 30px;
+}
+
+.booking1{
+  background-color: white;
+  padding:5px;
+  width:180px;
+  margin-left: 20px;
+}
+
+.booking1 button{
+    text-align: right;
+    float: right;
+}
+
+.booking1 img{
+  margin:10px;
+}
+
+h1{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 800;
+}
+
+h2,h3,h4,h5,h6{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+}
